@@ -62,10 +62,9 @@ color: #404bbf;
 }
 .section-menu-three {
         background-color: #F4F4FD;
+        letter-spacing: 0.02em
 }
-.section-menu-four {
-        
-}
+
 
 .contacts-link {
         font-size: 16px;
