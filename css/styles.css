@@ -17,7 +17,6 @@ font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
         line-height: 1.17;
-        letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
 }
@@ -38,10 +37,9 @@ font-family: "Raleway", sans-serif;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
-        letter-spacing: 0.02em;
         color: #2e2f42;
 }
-.contacts-link:focus,
+.contacts-link :focus,
 .contacts-link :hover,
 .link-header :hover,
 .link-header :focus {
@@ -49,14 +47,11 @@ font-family: "Raleway", sans-serif;
 }
 
 
-.contacts {
-    font-style: normal;
-}
+
 
 .contacts-link{
         font-size: 16px;
         line-height: 1.5;
-        letter-spacing: 0.02em;
         color: #434455
 }
 
@@ -65,14 +60,6 @@ font-family: "Raleway", sans-serif;
 }
 
 
-.main-menu {
-        font-weight: 500;
-        font-size: 16px;
-         line-height: 24px;
-        line-height: 150%;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
-}
 
 
 
@@ -80,15 +67,12 @@ font-family: "Raleway", sans-serif;
         font-size: 16px;
         line-height: 24px;
         line-height: 150%;
-        letter-spacing: 0.02em;
 }
 
 .title-main {
         font-weight: 700;
         font-size: 56px;
         line-height: 1.1;
-        letter-spacing: 0.02em;
-        text-align: center;
         color: #fff;
         
 }
@@ -96,12 +80,11 @@ font-family: "Raleway", sans-serif;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
-        letter-spacing: 0.04em;
         color: #fff;
         
 }
 
-.batton ;:hover 
+.batton :hover 
 .batton :active {
         color: #fff;
         cursor: pointer;
@@ -113,24 +96,19 @@ font-family: "Raleway", sans-serif;
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
-        letter-spacing: 0.02em;
         color: #2e2f42;
 }
 
 .text-style {
-        font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
-        letter-spacing: 0.02em;
 }
 
 .our-team {
         font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11111;
-        letter-spacing: 0.02em;
-        text-align: center;
+        line-height: 1.11;
         color: #2e2f42;
+        text-transform: capitalize
 }
 
 
@@ -142,24 +120,18 @@ font-family: "Raleway", sans-serif;
                 font-weight: 500;
                 font-size: 20px;
                 line-height: 1.2;
-                letter-spacing: 0.02em;
-                text-align: center;
                 color: #2e2f42;
 }
 
 .professi-item {
-                font-weight: 400;
                 font-size: 16px;
                 line-height: 1.5;
                 letter-spacing: 0.02em;
-                text-align: center;
 }
 
 .rights-item {
-                font-weight: 400;
                 font-size: 16px;
                 line-height: 1.5;
-                letter-spacing: 0.02em;
                 color: #f4f4fd;
 }
 
