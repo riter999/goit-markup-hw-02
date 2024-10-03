@@ -39,6 +39,7 @@ font-family: "Raleway", sans-serif;
         font-size: 16px;
         line-height: 1.5;
         color: #2e2f42;
+        letter-spacing: 0.02em;
 }
 .contacts-link :focus,
 .contacts-link :hover,
@@ -50,10 +51,11 @@ font-family: "Raleway", sans-serif;
 
 
 
-.contacts-link{
+.contacts-link {
         font-size: 16px;
         line-height: 1.5;
         color: #434455
+        
 }
 
 .contacts-link :hover, :focus {
