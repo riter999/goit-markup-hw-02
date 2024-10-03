@@ -1,6 +1,7 @@
 body {
 font-family: "Roboto", sans-serif;
 background: #fff;
+color: #434455
 }
 
 ul, ol {
@@ -11,23 +12,26 @@ a {
     text-decoration: none;
 }
 
-.header-logo {
-    font-family: "Raleway", sans-serif;
+.logo {
+font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
-        line-height: 21px;
-        line-height: 117%;
+        line-height: 1.16667;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #2e2f42;
-
-   
-}
-.web-logo {
         color: #4d5ae5;
-
 }
 
+
+
+
+.header-logo .logo-part {
+        color: #2e2f42;
+}
+
+.footer-logo .logo-part {
+        color: #f4f4fd;
+}
 
 
 .link-header {
@@ -53,7 +57,7 @@ a {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #434455;
+        color: #434455
 }
 
 .contacts-link :hover, :focus {
@@ -77,7 +81,6 @@ a {
         line-height: 24px;
         line-height: 150%;
         letter-spacing: 0.02em;
-        color: #434455;
 }
 
 .title-main {
@@ -112,7 +115,6 @@ a {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #434455;
 }
 
 .our-team {
@@ -127,3 +129,36 @@ a {
 .image-team {
     
 }
+
+
+
+
+.name-item {
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 1.2;
+                letter-spacing: 0.02em;
+                text-align: center;
+                color: #2e2f42;
+}
+
+.professi-item {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 1.5;
+                letter-spacing: 0.02em;
+                text-align: center;
+}
+
+.rights-item {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 1.5;
+                letter-spacing: 0.02em;
+                color: #f4f4fd;
+}
+
+.page-footer {
+        background: #2e2f42
+}
+
