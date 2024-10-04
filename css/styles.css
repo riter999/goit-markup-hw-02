@@ -44,19 +44,19 @@ header {
         color: #2e2f42;
 }
 
-.contacts-link:focus {
-        color: #404bbf;
-}
-
-.contacts-link:hover {
-        color: #404bbf;
-}
-
-.link-header:hover {
-        color: #404bbf;
-}
-
+.link-header:hover,
 .link-header:focus {
+        color: #404bbf;
+}
+
+.contacts-link {
+        font-size: 16px;
+        line-height: 1.5;
+        color: #434455;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
         color: #404bbf;
 }
 
@@ -69,33 +69,20 @@ header {
         letter-spacing: 0.02em;
 }
 
-.contacts-link {
-        font-size: 16px;
-        line-height: 1.5;
-        color: #434455;
-}
-
-.contacts-link :hover,
-:focus {
-        color: #404bbf;
-}
-
 .address-menu {
         font-style: normal;
 }
 
 .adress-item {
         font-size: 16px;
-        line-height: 24px;
-        line-height: 150%;
+        line-height: 1.5;
 }
 
 .title-main {
         font-weight: 700;
         font-size: 56px;
-        line-height: 1.1;
-        color: #fff;
         line-height: 1.07;
+        color: #fff;
         text-align: center;
         letter-spacing: 0.02em;
 }
@@ -111,12 +98,9 @@ header {
 }
 
 .batton:hover,
-.batton:active {
-        color: #fff;
-        background-color: #404BBF;
-}
-
+.batton:active,
 .batton:focus {
+        color: #fff;
         background-color: #404BBF;
 }
 
@@ -137,10 +121,10 @@ header {
 
 .titel-item {
         font-weight: 700;
+        font-size: 36px;
         line-height: 1.11;
         color: #2e2f42;
         text-transform: capitalize;
-        font-size: 36px;
         text-align: center;
         letter-spacing: 0.02em;
 }
