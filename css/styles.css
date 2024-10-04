@@ -106,7 +106,7 @@ color: #404bbf;
         color: #fff;
         background-color: #4D5AE5;
         letter-spacing: 0.04em;
-        
+        cursor: pointer;
 }
 
 
@@ -114,15 +114,16 @@ header {
         letter-spacing: 0.02em;
 }
 
-.batton :hover,
-.batton :active {
+.button :hover,
+.button :active {
         color: #fff;
         cursor: pointer;
         background-color: #404BBF;
         background-color: #404BBF;
-        cursor: pointer;
+      
 
 }
+
 
 .titel-style {
     font-family: "Roboto", sans-serif;
@@ -139,7 +140,7 @@ header {
         letter-spacing: 0.02em;
 }
 
-.titel-item {
+.title-item {
         font-weight: 700;
         line-height: 1.11;
         color: #2e2f42;
@@ -149,9 +150,7 @@ header {
         letter-spacing: 0.02em;
 
 }
-section {
-        letter-spacing: 0.02em
-}
+
 
 
 
