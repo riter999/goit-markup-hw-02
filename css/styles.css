@@ -1,30 +1,31 @@
 body {
-font-family: "Roboto", sans-serif;
-background: #fff;
-color: #434455;
+        font-family: "Roboto", sans-serif;
+        background: #fff;
+        color: #434455;
 }
 
-ul, ol {
-    
-    list-style-type: none;
+ul,
+ol {
+        list-style-type: none;
 }
+
 a {
-    text-decoration: none;
+        text-decoration: none;
+}
+
+header {
+        letter-spacing: 0.02em;
 }
 
 .logo {
-font-family: "Raleway", sans-serif;
+        font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
         line-height: 1.17;
         text-transform: uppercase;
         color: #4d5ae5;
         letter-spacing: 0.03em;
-        
 }
-
-
-
 
 .header-logo .logo-part {
         color: #2e2f42;
@@ -36,52 +37,52 @@ font-family: "Raleway", sans-serif;
         letter-spacing: 0.03em;
 }
 
-
 .link-header {
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         color: #2e2f42;
-        letter-spacing: 0.02em;
 }
+
 .contacts-link:focus {
         color: #404bbf;
 }
+
 .contacts-link:hover {
         color: #404bbf;
 }
+
 .link-header:hover {
         color: #404bbf;
 }
+
 .link-header:focus {
-color: #404bbf;
+        color: #404bbf;
 }
 
 .section-menu-first {
         background-color: #2e2f42;
 }
+
 .section-menu-three {
         background-color: #F4F4FD;
         letter-spacing: 0.02em;
 }
 
-
 .contacts-link {
         font-size: 16px;
         line-height: 1.5;
         color: #434455;
-        
 }
 
-.contacts-link :hover, :focus {
-    color: #404bbf;
+.contacts-link :hover,
+:focus {
+        color: #404bbf;
 }
-
 
 .address-menu {
         font-style: normal;
 }
-
 
 .adress-item {
         font-size: 16px;
@@ -97,30 +98,30 @@ color: #404bbf;
         line-height: 1.07;
         text-align: center;
         letter-spacing: 0.02em;
-        
 }
-.button{
+
+.button {
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         color: #fff;
         background-color: #4D5AE5;
         letter-spacing: 0.04em;
-        
+        cursor: pointer;
 }
 
-.batton :hover 
-.batton :active {
+.batton:hover,
+.batton:active {
         color: #fff;
-        cursor: pointer;
         background-color: #404BBF;
-        background-color: #404BBF;
-        cursor: pointer;
+}
 
+.batton:focus {
+        background-color: #404BBF;
 }
 
 .titel-style {
-    font-family: "Roboto", sans-serif;
+        font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -142,36 +143,4 @@ color: #404bbf;
         font-size: 36px;
         text-align: center;
         letter-spacing: 0.02em;
-
 }
-
-
-
-
-
-
-.name-item {
-                font-weight: 500;
-                font-size: 20px;
-                line-height: 1.2;
-                color: #2e2f42;
-}
-
-.professi-item {
-                font-size: 16px;
-                line-height: 1.5;
-                letter-spacing: 0.02em;
-                background-color: #FFFFFF;
-}
-
-.rights-item {
-                font-size: 16px;
-                line-height: 1.5;
-                color: #f4f4fd;
-                letter-spacing: 0.02em;
-}
-
-.page-footer {
-        background: #2e2f42;
-}
-
