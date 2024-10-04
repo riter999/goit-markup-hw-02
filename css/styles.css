@@ -117,9 +117,8 @@ header {
 .button :hover,
 .button :active {
         color: #fff;
-        cursor: pointer;
         background-color: #404BBF;
-        background-color: #404BBF;
+        
       
 
 }
