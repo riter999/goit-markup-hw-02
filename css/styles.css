@@ -11,6 +11,27 @@ ul, ol {
 a {
     text-decoration: none;
 }
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+        margin: 0;
+}
+
+ul,
+ol {
+        padding-left: 0;
+        margin: 0;
+}
+
+.header .container {
+        display: flex;
+        align-items: center;
+}
+
 
 .logo {
 font-family: "Raleway", sans-serif;
@@ -45,6 +66,9 @@ font-family: "Raleway", sans-serif;
         line-height: 1.5;
         color: #2e2f42;
         letter-spacing: 0.02em;
+        margin-right: 0;
+                margin-left: auto;
+              
 }
 .contacts-link:focus {
         color: #404bbf;
@@ -75,11 +99,17 @@ color: #404bbf;
         
 }
 
+
 .contacts-link :hover, :focus {
-    color: #404bbf;
+        color: #404bbf;
+        
 }
 
-
+.header {
+        padding-top: 10px;
+                padding-bottom: 10px;
+                border-bottom: solid 1px #ECECEC;
+}
 .address-menu {
         font-style: normal;
 }
@@ -109,6 +139,9 @@ color: #404bbf;
         background-color: #4D5AE5;
         letter-spacing: 0.04em;
         cursor: pointer;
+        margin-left: auto;
+                background-color: transparent;
+                margin-right: -5px;
 }
 
 
